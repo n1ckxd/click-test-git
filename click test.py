@@ -38,9 +38,9 @@ def timeplusser10sec():
     clicksgamenum = float(clicksgame)
     crntclicks = (clicksgamenum / 10)
     if str(crntclicks).endswith('1'):
-        messagebox.showinfo('Время вышло!', ('Сделано кликов:', clicksgame, "\nВ среденем вы делаете", crntclicks, "клик в секунду."))
+        messagebox.showinfo('Время вышло!', 'Сделано кликов: {}.\nВ среднем вы делаете {} клик в секунду.'.format(clicksgame, crntclicks))
     else:
-        messagebox.showinfo('Время вышло!', ('Сделано кликов:', clicksgame, "\nВ среденем вы делаете", crntclicks, "кликов в секунду."))
+        messagebox.showinfo('Время вышло!', 'Сделано кликов: {}.\nВ среднем вы делаете {} кликов в секунду.'.format(clicksgame, crntclicks))
     timegame = 1
     clear()
 def click():

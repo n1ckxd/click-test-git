@@ -65,8 +65,8 @@ def clear():
     lblclicks['text'] = ("Клики:", clicksgame)
     clicksgamenum = 0
     crntclicks = 0
-    tsecbut.pack()
     fsecbut.pack()
+    tsecbut.pack()
 def timeplus10sec():
     global k
     if k == 1:
@@ -142,3 +142,4 @@ lblclicks.pack()
 fsecbut.pack()
 tsecbut.pack()
 window.mainloop()
+input()
